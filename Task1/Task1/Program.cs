@@ -6,6 +6,7 @@ namespace Task1
     {
         static void Main(string[] args)
         {
+            //Part 1
             Console.WriteLine("\t\tTask 1");
             Console.WriteLine();
             Console.WriteLine("\tPart 1");
@@ -26,7 +27,7 @@ namespace Task1
             Console.WriteLine("For next step type Enter");
             Console.ReadKey();
             Console.WriteLine();
-
+            //Part 2
             Console.WriteLine("\tPart 2");
             Console.WriteLine();
             Console.Write("How old are your?\t");
@@ -35,7 +36,7 @@ namespace Task1
             Console.WriteLine("For next step type Enter");
             Console.ReadKey();
             Console.WriteLine();
-
+            //Part 3
             Console.WriteLine("\tPart 3");
             Console.WriteLine();
             Console.Write("Enter first char:\t");
@@ -46,7 +47,7 @@ namespace Task1
             bool success6 = char.TryParse(Console.ReadLine(), out char thirdChar);
             Console.WriteLine($"You enter next chars: {firstChar}, {secondChar}, {thirdChar}");
             Console.WriteLine();
-            
+            //Part 4
             Console.WriteLine("\tPart 4");
             Console.WriteLine();
             Console.Write("Enter first number:\t");
@@ -59,7 +60,7 @@ namespace Task1
             }
             else
                 Console.WriteLine("They aren't both positive!");
-            Console.WriteLine("Thank you for your job!");
+            Console.WriteLine("Good job!");
             Console.ReadKey();
         }
     }
