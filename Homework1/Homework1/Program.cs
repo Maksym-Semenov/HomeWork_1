@@ -34,10 +34,10 @@ namespace Homework1
             Console.Write("Enter radius of circle:\t");
             bool success3 = double.TryParse(Console.ReadLine(), out double r);
             Console.WriteLine($"Length = { 2 * r * Math.PI }");
-            Console.WriteLine($"Area = { 2 * r * Math.PI }");
+            Console.WriteLine($"Area = { r * r * Math.PI }");
             Console.WriteLine($"Volume = { ( 4 / 3 ) / ( 3 * r * Math.PI )}");
+            Console.WriteLine("Thank you for your work!");
             Console.ReadKey();
-            Console.WriteLine();
         }
     }
 }
