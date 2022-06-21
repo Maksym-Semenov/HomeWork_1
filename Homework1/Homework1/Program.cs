@@ -22,14 +22,13 @@ namespace Homework1
             Console.WriteLine();
             Console.Write("What is your name?\t");
             string name = Console.ReadLine();
-            Console.WriteLine($"How old are you, { name }?");
+            Console.Write($"How old are you, { name }?\t");
             bool success2 = int.TryParse(Console.ReadLine(), out int age);
             Console.WriteLine($"{ name }, you are { age } years old!");
             Console.WriteLine("For next step type Enter");
             Console.ReadKey();
             Console.WriteLine();
 
-            Console.WriteLine();
             Console.WriteLine("\tPart 3");
             Console.WriteLine();
             Console.Write("Enter radius of circle:\t");
