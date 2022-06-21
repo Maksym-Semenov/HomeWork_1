@@ -30,13 +30,13 @@ namespace Homework1
             Console.WriteLine();
 
             Console.WriteLine();
-            Console.WriteLine("\tPart 1");
+            Console.WriteLine("\tPart 3");
             Console.WriteLine();
-            Console.Write("Enter lehgth of square:\t");
-            bool success1 = int.TryParse(Console.ReadLine(), out int a);
-            Console.WriteLine($"Area = {a * a}");
-            Console.WriteLine($"Perimeter = {a * 4}");
-            Console.WriteLine("For next step type Enter");
+            Console.Write("Enter radius of circle:\t");
+            bool success3 = double.TryParse(Console.ReadLine(), out double r);
+            Console.WriteLine($"Length = { 2 * r * Math.PI }");
+            Console.WriteLine($"Area = { 2 * r * Math.PI }");
+            Console.WriteLine($"Volume = { ( 4 / 3 ) / ( 3 * r * Math.PI )}");
             Console.ReadKey();
             Console.WriteLine();
         }
