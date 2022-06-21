@@ -62,7 +62,7 @@ namespace Homework1
             }
             Console.WriteLine($"Length = { 2 * r * Math.PI }");
             Console.WriteLine($"Area = { r * r * Math.PI }");
-            Console.WriteLine($"Volume = { ( 4 / 3 ) / ( 3 * r * Math.PI )}");
+            Console.WriteLine($"Volume = { ( 4 / 3 ) / ( r * r * r * Math.PI )}");
             Console.WriteLine();
             Console.WriteLine("Thank you for your work!");
             Console.ReadKey();
